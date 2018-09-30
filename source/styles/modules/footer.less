@@ -1,0 +1,68 @@
+/**
+ * Modules - Footer
+ ******************
+ */
+
+#footer {
+  .background-mako;
+
+  > .container {
+    .text-center;
+
+    > #footer__social_links {
+      padding: 30px 0;
+
+      > .item {
+        margin-left: 20px;
+
+        > i {
+          .text-fountain-blue;
+
+          font-size: 18px;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          -ms-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+        &:hover {
+          > i {
+            .text-white;
+          }
+        }
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+
+    > hr {
+      margin-top: 0;
+      margin-bottom: 0;
+      border-top-color: @color-abbey;
+    }
+
+    > #footer__copyright_texts {
+      .text-santas-gray;
+
+      padding: 20px 0;
+
+      a {
+        .text-fountain-blue;
+
+        text-decoration: none;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+
+        &:hover {
+          .text-white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+/**
+ * Modules - Layout #1's Header
+ ******************************
+ */
+
+.layout-base-1 {
+  #header {
+    .clearfix;
+
+    margin: 20px 0;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    #header__logo {
+      .pull-left;
+
+      width: 154px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('@{image-uri-base}/logo.png');
+      text-indent: -9999px;
+    }
+
+    #header__menu {
+      .pull-right;
+
+      > .list {
+        > .item {
+          .text-uppercase;
+          .font-museo-sans-500;
+          .text-scorpion;
+
+          display: inline-block;
+          text-decoration: none;
+          line-height: 40px;
+          padding: 0 16px;
+
+          &:hover {
+            .text-fountain-blue;
+
+            opacity: 0.85;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+          }
+
+          &.button {
+            .text-fountain-blue;
+
+            border: 2px solid @color-fountain-blue;
+          }
+        }
+      }
+    }
+  }
+}

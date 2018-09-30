@@ -1,0 +1,4 @@
+{
+  "*.js": ["eslint", "git add"],
+  "*.{css,less,scss,sass}": ["stylelint", "git add"],
+}

@@ -1,0 +1,33 @@
+{
+  "name": "open-charity-template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "William Le <william.le@passcareer.io>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/vendors/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1",
+    "font-awesome": "4",
+    "scaleapp": "^0.4.3"
+  },
+  "overrides": {
+    "slick-carousel": {
+      "dependencies": {
+        "bootstrap": "3"
+      }
+    }
+  }
+}
